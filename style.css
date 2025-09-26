@@ -152,42 +152,22 @@ h1 {
 .skill-card-description {
   font-size: 19px;
 }
-/* learning goals and achivemnts */
-.goals p,
-.achievements p {
+
+th {
+  padding: 10px;
   font-size: 25px;
+  background-color: #2c2c2c;
+  color: white;
+}
+td {
+  padding: 10px;
+  font-size: 20px;
 }
 
-.goals-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.goals-list li {
-  position: relative;
-  padding-left: 2em;
-}
-.goals-list li::before {
-  content: "🚀";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 1.5em;
-}
-
-.achievements-list {
-  list-style: none;
-  padding-left: 0;
-}
-.achievements-list li {
-  position: relative;
-  padding-left: 2em;
-}
-.achievements-list li::before {
-  content: "🏆";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 1.5em;
-}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #bcbcbc;}
+/* ul {
+      list-style-type: "✦ ";
+      padding-left: 20px;
+    } */
 
