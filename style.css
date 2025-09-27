@@ -188,3 +188,6 @@ tr:nth-child(odd) {background-color: #c5c5c5;}
 .project-details {
   font-size: 20px;
 }
+.video-embed iframe {
+  border-radius: 25px;
+}
